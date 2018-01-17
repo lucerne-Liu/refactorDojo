@@ -1,6 +1,6 @@
 package com.ccc.demo5;
 
-public class Adress {
+public class Address {
 	private static final String COMMA_SPACE = ", ";
 	private String streetNumber;
 	private String apartmentNumber;

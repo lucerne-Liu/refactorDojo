@@ -4,10 +4,10 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class AdressTest {
+public class AddressTest {
 	@Test
 	public void testToString() {
-		Adress address = new Adress();
+		Address address = new Address();
 		address.setStreetNumber("734");
 		address.setStreetName("Crane Canyon Place");
 		address.setCity("Round Rock");
@@ -19,7 +19,7 @@ public class AdressTest {
 
 	@Test
 	public void testToStringWithoutStreetNumber() {
-		Adress address = new Adress();
+		Address address = new Address();
 		address.setStreetName("Crane Canyon Place");
 		address.setCity("Round Rock");
 		address.setState("TX");
@@ -30,7 +30,7 @@ public class AdressTest {
 
 	@Test
 	public void testToStringWithoutZip() {
-		Adress address = new Adress();
+		Address address = new Address();
 		address.setStreetNumber("734");
 		address.setStreetName("Crane Canyon Place");
 		address.setCity("Round Rock");
