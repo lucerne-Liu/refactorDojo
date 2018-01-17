@@ -11,16 +11,16 @@ public class Address {
 	@Override
 	public String toString() {
 		final StringBuffer value = new StringBuffer();
-		value.append(someHorriblyNamedMethod(null, getStreetNumber(),
+		value.append(format(null, getStreetNumber(),
                 ", "));
 		value.append(getStreetName());
 		value.append(", ");
-		value.append(someHorriblyNamedMethod(null, getApartmentNumber(),
+		value.append(format(null, getApartmentNumber(),
                 ", "));
 		value.append(getCity());
 		value.append(", ");
 		value.append(getState());
-		value.append(someHorriblyNamedMethod(" ", getZip(), null));
+		value.append(format(" ", getZip(), null));
 		return value.toString();
 	}
 
@@ -72,8 +72,8 @@ public class Address {
 		return zip;
 	}
 
-	private String someHorriblyNamedMethod(String prefix, String value,
-			String suffix) {
+	private String format(String prefix, String value,
+						  String suffix) {
 		StringBuffer retVal = new StringBuffer();
 		if (value != null && !value.trim().isEmpty()) {
 			if (prefix != null) {

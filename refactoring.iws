@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27545bd-a67d-421e-9f52-c7ece594884e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring_exercises/com/ccc/demo4/Address.class" afterPath="$PROJECT_DIR$/out/production/Refactoring_exercises/com/ccc/demo4/Address.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring_exercises/com/ccc/demo5/Adress.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/Refactoring_exercises/com/ccc/demo5/AdressTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/refactoring.iws" afterPath="$PROJECT_DIR$/refactoring.iws" />
-      <change beforePath="$PROJECT_DIR$/src/com/ccc/demo5/Adress.java" afterPath="$PROJECT_DIR$/src/com/ccc/demo5/Address.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/ccc/demo5/AdressTest.java" afterPath="$PROJECT_DIR$/test/com/ccc/demo5/AddressTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/ccc/demo6/Address.java" afterPath="$PROJECT_DIR$/src/com/ccc/demo6/Address.java" />
     </list>
     <ignored path="refactoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +61,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Address.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ccc/demo5/Address.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ccc/demo6/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="966">
+              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -116,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/com/ccc/demo4/Address.java" />
         <option value="$PROJECT_DIR$/src/com/ccc/demo5/Adress.java" />
         <option value="$PROJECT_DIR$/src/com/ccc/demo5/Address.java" />
+        <option value="$PROJECT_DIR$/src/com/ccc/demo6/Address.java" />
       </list>
     </option>
   </component>
@@ -130,8 +127,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="123" />
+    <option name="x" value="170" />
+    <option name="y" value="170" />
     <option name="width" value="1399" />
     <option name="height" value="938" />
   </component>
@@ -268,6 +265,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="ccc" type="462c0819:PsiDirectoryNode" />
               <item name="demo5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refactorDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -570,7 +574,7 @@
       <workItem from="1516029860249" duration="53000" />
       <workItem from="1516089154988" duration="39000" />
       <workItem from="1516182759576" duration="765000" />
-      <workItem from="1516191092977" duration="4776000" />
+      <workItem from="1516191092977" duration="4854000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor demo1">
       <created>1516197651080</created>
@@ -593,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516198432382</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor demo5">
+      <created>1516198889487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516198889487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,10 +640,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11491000" />
+    <option name="totallyTimeSpent" value="11569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="123" width="1399" height="938" extended-state="0" />
+    <frame x="170" y="170" width="1399" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -708,11 +719,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Refactor demo1" />
     <MESSAGE value="Refactor demo2" />
     <MESSAGE value="Refactor demo3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor demo3" />
+    <MESSAGE value="Refactor demo5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor demo5" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -977,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ccc/demo6/AddressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1102,14 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ccc/demo6/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-998">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ccc/demo4/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1130,6 +1126,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ccc/demo6/AddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ccc/demo6/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding />
         </state>
       </provider>
