@@ -2,11 +2,11 @@ package com.ccc.demo7;
 
 public class PolicyHolder {
 	private String name;
-	private Address adress;
+	private Address address;
 	private int age;
 
 	public String getDisplayString() {
-		return getName() + "\n" + getAdress();
+		return getName() + "\n" + getAddress();
 	}
 
 	public void setName(String name) {
@@ -17,12 +17,12 @@ public class PolicyHolder {
 		return name;
 	}
 
-	public void setAdress(Address adress) {
-		this.adress = adress;
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 
-	public Address getAdress() {
-		return adress;
+	public Address getAddress() {
+		return address;
 	}
 
 	public void setAge(int age) {

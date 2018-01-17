@@ -14,7 +14,7 @@ public class PolicyHolderTest {
 		address.setCity("Round Rock");
 		address.setState("TX");
 		address.setZip("78665");
-		policyHolder.setAdress(address);
+		policyHolder.setAddress(address);
 		policyHolder.setName("Vijay");
 		assertEquals("Vijay\n734, Crane Canyon Place, Round Rock, TX 78665",
 				policyHolder.getDisplayString());

@@ -1,6 +1,7 @@
 package com.ccc.demo7;
 
 public class Address {
+	private final String COMMA_SPACE = ", ";
 	private String streetNumber;
 	private String apartmentNumber;
 	private String streetName;
@@ -10,17 +11,17 @@ public class Address {
 
 	@Override
 	public String toString() {
-		final StringBuffer a = new StringBuffer(getStreetNumber());
-		a.append(", ");
+		StringBuffer a = new StringBuffer(getStreetNumber());
+		a.append(COMMA_SPACE);
 		a.append(getStreetName());
-		a.append(", ");
+		a.append(COMMA_SPACE);
 		if (getApartmentNumber() != null
 				&& !getApartmentNumber().trim().isEmpty()) {
 			a.append(getApartmentNumber());
-			a.append(", ");
+			a.append(COMMA_SPACE);
 		}
 		a.append(getCity());
-		a.append(", ");
+		a.append(COMMA_SPACE);
 		a.append(getState());
 		a.append(" ");
 		a.append(getZip());
