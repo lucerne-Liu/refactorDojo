@@ -14,14 +14,14 @@ public class Address {
 	@Override
 	public String toString() {
 		final StringBuffer value = new StringBuffer();
-		value.append(format(null, getStreetNumber(), COMMA_SPACE, null));
+		value.append(format(null, getStreetNumber(), COMMA_SPACE));
 		value.append(getStreetName());
 		value.append(COMMA_SPACE);
-		value.append(format(null, getApartmentNumber(), COMMA_SPACE, null));
+		value.append(format(null, getApartmentNumber(), COMMA_SPACE));
 		value.append(getCity());
 		value.append(COMMA_SPACE);
 		value.append(getState());
-		value.append(format(" ", getZip(), null, null));
+		value.append(format(" ", getZip(), null));
 		return value.toString();
 	}
 
@@ -73,8 +73,7 @@ public class Address {
 		return zip;
 	}
 
-	private String format(String prefix, String value, String suffix,
-			Map options) {
+	private String format(String prefix, String value, String suffix) {
 		StringBuffer retVal = new StringBuffer();
 		if (value != null && !value.trim().isEmpty()) {
 			if (prefix != null) {
