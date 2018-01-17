@@ -1,14 +1,15 @@
 package com.ccc.demo1;
 
+import static sun.misc.VM.getState;
+
 public class PolicyHolder {
 	private String name;
-	private String streetNumber;
-	private String apartmentNumber;
-	private String streetName;
-	private String city;
-	private String state;
-	private String zip;
+	private Address address;
 	private int age;
+
+	public PolicyHolder(Address address) {
+		this.address = address;
+	}
 
 	public void setName(String name) {
 		this.name = name;
@@ -17,7 +18,13 @@ public class PolicyHolder {
 	public String getName() {
 		return name;
 	}
+	public Address getAddress() {
+		return address;
+	}
 
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public void setAge(int age) {
 		this.age = age;
 	}
@@ -26,64 +33,17 @@ public class PolicyHolder {
 		return age;
 	}
 
-	public void setStreetNumber(String streetNumber) {
-		this.streetNumber = streetNumber;
-	}
-
-	public String getStreetNumber() {
-		return streetNumber;
-	}
-
-	public void setApartmentNumber(String apartmentNumber) {
-		this.apartmentNumber = apartmentNumber;
-	}
-
-	public String getApartmentNumber() {
-		return apartmentNumber;
-	}
-
-	public void setStreetName(String streetName) {
-		this.streetName = streetName;
-	}
-
-	public String getStreetName() {
-		return streetName;
-	}
-
-	public void setCity(String city) {
-		this.city = city;
-	}
-
-	public String getCity() {
-		return city;
-	}
-
-	public String getState() {
-		return state;
-	}
-
-	public void setState(String state) {
-		this.state = state;
-	}
-
-	public String getZip() {
-		return zip;
-	}
-
-	public void setZip(String zip) {
-		this.zip = zip;
-	}
 
 	public String toDisplaString() {
 		StringBuffer displayString = new StringBuffer();
 		displayString.append(getName());
 		displayString.append(":");
-		displayString.append(getApartmentNumber()).append(" ");
-		displayString.append(getStreetNumber()).append(" ");
-		displayString.append(getStreetName()).append(",").append(" ");
-		displayString.append(getCity()).append(" ");
-		displayString.append(getState()).append(",").append(" ");
-		displayString.append(getZip());
+		displayString.append(address.getApartmentNumber()).append(" ");
+		displayString.append(address.getStreetNumber()).append(" ");
+		displayString.append(address.getStreetName()).append(",").append(" ");
+		displayString.append(address.getCity()).append(" ");
+		displayString.append(address.getState()).append(",").append(" ");
+		displayString.append(address.getZip());
 		return displayString.toString();
 	}
 }
